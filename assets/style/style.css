@@ -1,0 +1,41 @@
+
+.card-text-spacing {
+  margin-right: 2%;
+}
+
+.card-text-btn {
+  width: 13%;
+  font-family: 'Acme', sans-serif;
+  font-size: 15px;
+  padding: 7pt;
+  color: #555;
+  background: transparent;
+  border: solid .15rem #555;
+  border-radius: .5rem;
+}
+
+.card-text-btn:hover {
+  color: #9a9a9a;
+  border: .15rem solid #9a9a9a;
+}
+
+.card-text-btn:focus {
+  color: #757575;
+  border: .15rem solid #757575;
+}
+
+.card-text-btn:hover,
+.card-text-btn:focus {
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+.card-text-npt {
+  width: 80%;
+}
+
+.card-text-npt:hover,
+.card-text-npt:focus {
+  color: #9a9a9a;
+  border: solid .15rem #555;
+}
