@@ -59,3 +59,14 @@ document.getElementById('generate').onclick = () => {
   document.getElementById('result5').value = UUID;
   copyTextAlert('copy5', UUID);
 }
+
+function copyTextAlert(id, text) {
+  document.getElementById(id).onclick = () => {
+    let newElement = document.createElement('textarea');
+    document.body.appendChild(newElement);
+    newElement.value = text; newElement.select();
+    document.execCommand('copy');
+    alert(`Copied to clipboard!`);
+    document.body.removeChild(newElement);
+  }
+}
